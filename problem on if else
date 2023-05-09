@@ -1,0 +1,12 @@
+# This progranm is finding marks and also mention the grade in class 
+
+marks=int(input("enter the value"))
+if marks>=90:
+    print('good')
+elif marks>=70 or marks<=60:
+    print("average")
+elif marks>=60 or marks<10:
+    print('fail')
+else:
+    print('execution over the sorry ')
+print('sorry')
